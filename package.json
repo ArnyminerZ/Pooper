@@ -1,0 +1,23 @@
+{
+  "name": "pooper",
+  "version": "1.0.0",
+  "description": "A Telegram bot for counting how much do you and your friends poop a year.",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "poop",
+    "telegram",
+    "bot"
+  ],
+  "author": "Arnau Mora",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.60.0",
+    "sqlite3": "^5.1.4"
+  }
+}
