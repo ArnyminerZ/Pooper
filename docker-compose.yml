@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  api:
+    image: arnyminerz/pooper
+    container_name: pooper
+    restart: unless-stopped
+    env_file:
+      - .env
